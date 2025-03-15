@@ -112,8 +112,8 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*Hello there 𝘾𝙃𝘼𝙈𝙊𝙉𝘿𝙐-MD User!\n *YOUR PREFIX:* = ${prefix}\n\nHellow user please star my repo 🥷\n\n.........\n\n> ©𝘾𝙃𝘼𝙈𝘼 \ud83d\udda4`;
-    conn.sendMessage(conn.user.id, { image: { url: `.......` }, caption: up })
+  let up = `*Hello there 𝘾𝙃𝘼𝙈𝙄𝙉𝘿𝙐-MD User! \ud83d\udc4b\ud83c\udffb* \n\n> \n\n *YOUR PREFIX:* = ${prefix}\n\nhi`;
+    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/63s5uf.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
