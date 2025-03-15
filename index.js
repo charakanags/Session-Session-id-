@@ -112,8 +112,8 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*Hello there QUEEN-MINUKI-MD User! \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet QUEEN-MINUKI-MD WhatsApp Bot.\n\n *Thanks for using QUEEN-MINUKI-MD \ud83d\udea9* \n\n> Join WhatsApp Channel :- ⤵️\n \nhttps://whatsapp.com/channel/0029VaicB1MISTkGyQ7Bqe23\n\n- *YOUR PREFIX:* = ${prefix}\n\nHellow user please star my repo 🥷\n\nhttps://github.com/ADHI-OFC-RK/QUEEN-MINUKI-MD\n\n> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀᴅʜɪ ᴏꜰᴄ \ud83d\udda4`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/63s5uf.jpg` }, caption: up })
+  let up = `*Hello there 𝘾𝙃𝘼𝙈𝙊𝙉𝘿𝙐-MD User!\n *YOUR PREFIX:* = ${prefix}\n\nHellow user please star my repo 🥷\n\n.........\n\n> ©𝘾𝙃𝘼𝙈𝘼 \ud83d\udda4`;
+    conn.sendMessage(conn.user.id, { image: { url: `.......` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
